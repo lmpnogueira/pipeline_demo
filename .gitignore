@@ -22,3 +22,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Make sure to not ignore the Gradle wrapper scripts
+!app/gradle/wrapper/gradle-wrapper.jar
+!app/gradle/wrapper/gradle-wrapper.properties
+!app/gradlew
+!app/gradlew.bat
+
+# MacOS
+.DS_Store

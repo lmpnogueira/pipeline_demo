@@ -1,3 +1,4 @@
 echo "Building..."
-sleep 2
+cd app
+./gradlew clean build
 echo "Artifact generated"
